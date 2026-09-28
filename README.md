@@ -236,6 +236,6 @@ print(f"Probability of Heart Disease: {probability[1] * 100:.2f}%")
 ## 📜 Author & License
 
 - **Author:** [Arnav Rastogi](https://github.com/Arnav-Rastogi)
-- **License:** _Add a license (e.g. MIT)_
+
 
 If you found this project useful, please ⭐ the repository!
