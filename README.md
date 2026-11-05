@@ -62,18 +62,7 @@ streamlit run app.py
 
 Keep the three `.pkl` files beside `app.py`. `heart.csv` is needed for the dataset overview and charts; the prediction form can still work if the CSV is unavailable.
 
-## Deploy to Streamlit Community Cloud
 
-1. Push this project and its three original `.pkl` artifacts to a GitHub repository. Confirm that the artifacts are available to the deployment (repository size limits apply).
-2. In [Streamlit Community Cloud](https://share.streamlit.io/), create an app from the repository and select `app.py` as the entry point.
-3. Select a supported Python version (3.11 recommended) and deploy. Community Cloud installs `requirements.txt` automatically.
-4. Open the deployed app and confirm that the dashboard loads and a sample form submission produces a result.
-
-If your repository uses Git LFS for model artifacts, ensure the deployment environment can retrieve the actual files rather than LFS pointer text.
-
-## Data fields
-
-The 11 raw inputs are `Age`, `Sex`, `ChestPainType`, `RestingBP`, `Cholesterol`, `FastingBS`, `RestingECG`, `MaxHR`, `ExerciseAngina`, `Oldpeak`, and `ST_Slope`. Category values match those present in the supplied `heart.csv`.
 
 =======
 # ❤️ Heart Disease Prediction (ML Model)
